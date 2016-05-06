@@ -13,6 +13,9 @@
 		B38CD83A1CC490C300E3A40D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38CD8381CC490C300E3A40D /* Main.storyboard */; };
 		B38CD83C1CC490C300E3A40D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B38CD83B1CC490C300E3A40D /* Assets.xcassets */; };
 		B38CD83F1CC490C300E3A40D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B38CD83D1CC490C300E3A40D /* LaunchScreen.storyboard */; };
+		B38CD8471CC494C800E3A40D /* iphone1.png in Resources */ = {isa = PBXBuildFile; fileRef = B38CD8461CC494C800E3A40D /* iphone1.png */; };
+		B38CD8491CC494CC00E3A40D /* iphone3.png in Resources */ = {isa = PBXBuildFile; fileRef = B38CD8481CC494CC00E3A40D /* iphone3.png */; };
+		B38CD84B1CC494D000E3A40D /* iphone2.png in Resources */ = {isa = PBXBuildFile; fileRef = B38CD84A1CC494D000E3A40D /* iphone2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B38CD83B1CC490C300E3A40D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B38CD83E1CC490C300E3A40D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B38CD8401CC490C300E3A40D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B38CD8461CC494C800E3A40D /* iphone1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone1.png; sourceTree = "<group>"; };
+		B38CD8481CC494CC00E3A40D /* iphone3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone3.png; sourceTree = "<group>"; };
+		B38CD84A1CC494D000E3A40D /* iphone2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				B38CD8361CC490C300E3A40D /* ViewController.m */,
 				B38CD8381CC490C300E3A40D /* Main.storyboard */,
 				B38CD83B1CC490C300E3A40D /* Assets.xcassets */,
+				B38CD8461CC494C800E3A40D /* iphone1.png */,
+				B38CD84A1CC494D000E3A40D /* iphone2.png */,
+				B38CD8481CC494CC00E3A40D /* iphone3.png */,
 				B38CD83D1CC490C300E3A40D /* LaunchScreen.storyboard */,
 				B38CD8401CC490C300E3A40D /* Info.plist */,
 				B38CD82F1CC490C300E3A40D /* Supporting Files */,
@@ -139,6 +148,9 @@
 			files = (
 				B38CD83F1CC490C300E3A40D /* LaunchScreen.storyboard in Resources */,
 				B38CD83C1CC490C300E3A40D /* Assets.xcassets in Resources */,
+				B38CD84B1CC494D000E3A40D /* iphone2.png in Resources */,
+				B38CD8471CC494C800E3A40D /* iphone1.png in Resources */,
+				B38CD8491CC494CC00E3A40D /* iphone3.png in Resources */,
 				B38CD83A1CC490C300E3A40D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GestureProjectNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vlgusakov.GestureProjectNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GestureProjectNew/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vlgusakov.GestureProjectNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
